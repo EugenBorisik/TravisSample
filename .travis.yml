@@ -3,7 +3,7 @@ jdk:
   - openjdk8
 
 before_install:
-  - chmod +x ./ex/gradlew
+  - chmod +x ./gradlew
 
 script:
-  - ./ex/gradlew clean test
+  - ./gradlew clean test
