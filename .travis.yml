@@ -2,5 +2,8 @@ language: java
 jdk:
   - openjdk8
 
+before_install:
+  - chmod +x ./ex/gradlew
+
 script:
   - ./ex/gradlew clean test
